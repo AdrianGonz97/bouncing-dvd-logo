@@ -1,0 +1,32 @@
+body {
+  display: block;
+  background-color: #000000;
+  margin: 0;
+  color: black;
+}
+
+.app {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+
+
+#logo {
+  position: absolute;
+  width: 250px;
+  height: 100px;
+  fill: white;
+}
+
+#counter {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+@media (min-width: 1280px) {
+  #logo {
+    width: 500px;
+    height: 220px;
+  }
+}
